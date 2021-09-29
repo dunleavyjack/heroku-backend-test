@@ -9,7 +9,6 @@
     "node": "6.11.1"
   },
   "scripts": {
-    "postinstall": "npm run prestart:prod",
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
